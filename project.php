@@ -10,10 +10,9 @@ if (isset($_POST["user"])) {
  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<style>
+ <style>
 #example1 {
-  background: url(https://img.wallpapersafari.com/desktop/1680/1050/89/98/gc0M5W.jpg) no-repeat center fixed;
+  background: url(https://www.pilotpartners.com.au/wp-content/uploads/2019/08/iStock-1001713236-medical-plain.jpg) no-repeat center fixed;
    background-size: cover;
 
 }
@@ -67,7 +66,7 @@ h3 {
 <div class="row">
   <div class="col-sm-12">
   <h1><br><br><br><br>Welcome to doctor 24/7.com. All specialized doctors are available here in 24/7</h1>
-  <h3>If you are a normal user, then press "User login" and if you are an admin
+  <h3>If you are a normal user, then press "Get started" and if you are an admin
     then press "Admin login"</h3>
   </div>
 </div>
@@ -79,7 +78,7 @@ h3 {
        }
    ?>
  <form action="dashboard.php" method="post">
-       <input type="submit" button class="button button1" name="user" value="User login">
+       <input type="submit" button class="button button1" name="user" value="Get started">
        <button class="button button2">Admin login</button>
  </form>
 </div>
